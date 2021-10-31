@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    h1 {
+        font-size: 5vw;
+    }
+    h2 {
+        font-size: 3vw;
+    }
+    a {
+        font-size: 1.3vw;
+        @media screen and (max-width: 768px) {
+            font-size: 3vw;
+        }
+            
+    }
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    
+    ul {
+        list-style: none;
+        margin: 0.5;
+        padding: 0.3;
+        li {
+			display: inline-block;
+			a {
+				display: inline-block;
+				color:white;
+				text-decoration: none;
+				padding:0.5em 1em;
+				&:hover {
+					background:gray;
+                    
+				}
+			}
+        }
+    }
+}
+.the-middle {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.change {
+    stroke: black;
+}
